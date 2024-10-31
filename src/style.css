@@ -40,6 +40,32 @@ header {
   padding: 15px 30px;
 }
 
+main {
+  padding: 30px 0;
+}
+
+.weather-app-data {
+  display: flex; /* Flexbox created to create wrapper around the two divs contained in the main section */
+  justify-content: space-between; /* This attribute distributes space between city details and its temperature */
+}
+
+.weather-app-city {
+  font-size: 38px;
+  line-height: 48px;
+  margin: 0;
+}
+
+.weather-app-details {
+  color: rgba(39, 33, 66, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.weather-app-details strong {
+  color: #f7aa00;
+}
+
 footer {
   border-top: 1px solid #bcdbdf;
   font-size: 12px;
