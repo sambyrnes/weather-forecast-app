@@ -66,6 +66,27 @@ main {
   color: #f7aa00;
 }
 
+.weather-app-temperature-container {
+  display: flex; /* This allows the icon, value, and unit to sit side-by-side on the same line */
+}
+
+.weather-app-icon {
+  font-size: 44px;
+  margin-top: 22px;
+}
+
+.weather-app-temperature-numerical-value {
+  font-size: 88px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.weather-app-temperature-unit {
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 22px;
+}
+
 footer {
   border-top: 1px solid #bcdbdf;
   font-size: 12px;
