@@ -71,20 +71,21 @@ main {
 }
 
 .weather-app-icon {
-  font-size: 44px;
-  margin-top: 22px;
+  height: 88px;
+  width: 88px;
 }
 
 .weather-app-temperature-numerical-value {
   font-size: 88px;
   font-weight: 600;
+  line-height: 88px;
   margin-left: 10px;
 }
 
 .weather-app-temperature-unit {
   font-size: 28px;
   font-weight: 600;
-  margin-top: 22px;
+  margin-top: 5px;
 }
 
 footer {
